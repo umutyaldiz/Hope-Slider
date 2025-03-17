@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hope Slider</title>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Big+Shoulders:opsz,wght@10..72,100..900&display=swap');
+    </style>
+    <style type="text/tailwindcss">
+        body{
+            font-family: "Big Shoulders", sans-serif;
+        }
+        .pagination .dot{
+            @apply w-5 h-5 bg-green-300 rounded-full;
+        }
+        .pagination .dot.active{
+            @apply bg-green-500;
+        }
+      </style>
+</head>
+
+<body>
+    <div class="container mx-auto">
+        <h1 class="text-3xl font-bold text-center pt-5 pb-10 font-bold ">Hope Slider JS</h1>
+        <div class="hope-slider w-full overflow-hidden relative">
+            <div class="hope-wrapper flex">
+                <div
+                    class="slide w-full flex-shrink-0 bg-red-400 text-white text-2xl flex items-center justify-center h-64">
+                    Slide 1</div>
+                <div
+                    class="slide w-full flex-shrink-0 bg-blue-400 text-white text-2xl flex items-center justify-center h-64">
+                    Slide 2</div>
+                <div
+                    class="slide w-full flex-shrink-0 bg-green-400 text-white text-2xl flex items-center justify-center h-64">
+                    Slide 3</div>
+            </div>
+        </div>
+        <div class="flex items-center justify-center gap-2 mt-5">
+            <button class="prev bg-green-500 text-white h-10 px-3 rounded-sm">Önceki</button>
+            <button class="next bg-green-500 text-white h-10 px-3 rounded-sm">Sonraki</button>
+        </div>
+
+
+
+        <div class="pagination flex items-center justify-center gap-2 mt-5"></div>
+
+        <h2 class="text-2xl font-bold mt-5 ">Log</h2>
+        <div id="log-container" class="w-full h-[300px] mt-2 bg-gray-200 overflow-auto p-2 text-sm"></div>
+
+    </div>
+    <script src="/app.js" type="module"></script>
+</body>
+
+</html>

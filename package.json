@@ -1,0 +1,11 @@
+{
+  "name": "hope-slider",
+  "version": "0.0.1",
+  "description": "Hope Slider, akıcı ve kesintisiz kaydırma deneyimi sunan hafif ve esnek bir JavaScript slider kütüphanesidir. Minimalist yapısıyla hızlı entegrasyon sağlar.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Umut Yaldız",
+  "license": "MIT"
+}
