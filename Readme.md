@@ -2,6 +2,10 @@
 
 Hope Slider, akıcı ve kesintisiz kaydırma deneyimi sunan hafif ve esnek bir JavaScript slider kütüphanesidir. Minimalist yapısıyla hızlı entegrasyon sağlar.
 
+## Demo
+[Demo Link](https://www.umutyaldiz.com/hope-slider/)
+
+
 ## Özellikler
 - **Smooth Scrolling**: Son derece akışkan ve kesintisiz kaydırma deneyimi sunar.
 - **Loop Desteği**: Slider bitiş noktasına geldiğinde otomatik olarak başa sarar ve sonsuz bir döngü oluşturur.
